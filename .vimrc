@@ -27,4 +27,13 @@ let NERDTreeShowBookmarks=1
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 
-let Tlist_Ctags_Cmd='/usr/bin/ctags'
+" Taglist configs
+let Tlist_Use_Right_Window = 1
+" Display only tags for the active file (as oppose to all files in buffer)
+" let Tlist_Show_One_File=1
+" Fold tags for all non active files in buffer 
+let Tlist_File_Fold_Auto_Close=1
+
+" Custom key bindings
+" <F8> toggle taglist
+nnoremap <silent> <F8> :TlistToggle<CR>  
