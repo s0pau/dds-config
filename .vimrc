@@ -26,6 +26,8 @@ let NERDTreeShowBookmarks=1
 " Start NERDTree and move cursor to main window 
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
+" Quit vim if NERDTree is the only buffer left
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 " Taglist configs
 let Tlist_Use_Right_Window = 1

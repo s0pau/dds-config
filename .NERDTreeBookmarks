@@ -1,6 +1,5 @@
 axino /home/spau/work/axino
 connect /home/spau/work/connect
-dds-config /home/spau/work/dds-config
 docs /home/spau/work/docs
 eliot /home/spau/work/eliot
 mqtt /home/spau/work/mqtt_bridge
@@ -9,4 +8,4 @@ pachweb /home/spau/work/pachweb
 paws /home/spau/work/paws
 puppet /home/spau/work/puppet
 root /home/spau/work
-
+dds-config /home/spau/dds-config
