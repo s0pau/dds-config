@@ -1,9 +1,9 @@
 dds-config
 ==========
 
-<ul>
-<li>bootstrap this from puppet</li>
-<li/>run: sudo apt-get install ctags</li>
+<ul>Configures local dds
+<li>sudo ./bin/dev run </li>
+<li>./bootstrap </li>
 <ul>
 
 <p>
