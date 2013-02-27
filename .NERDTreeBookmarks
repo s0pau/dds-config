@@ -5,6 +5,8 @@ eliot /home/spau/work/eliot
 mqtt /home/spau/work/mqtt_bridge
 pachcore /home/spau/work/pachcore
 pachweb /home/spau/work/pachweb
+goldfinch /home/spau/work/goldfinch
+sloth /home/spau/work/sloth
 paws /home/spau/work/paws
 puppet /home/spau/work/puppet
 root /home/spau/work
