@@ -18,7 +18,8 @@ syntax on
 filetype plugin indent on
 
 " Set spell check behaviour for specific filetypes, was setlocal spell spelllang=en_gb
-autocmd BufRead,BufNewFile *.md,*.mdown,*.txt setlocal nospell 
+autocmd BufRead,BufNewFile *.md,*.mdown,*.txt setlocal nospell
+au BufRead,BufNewFile *.hbs,*.erb setfiletype html
 
 " NERDTree configs
 let NERDChristmasTree=1
